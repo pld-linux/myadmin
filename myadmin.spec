@@ -12,6 +12,9 @@ Patch0:		%{name}-perlpath.patch
 Url:		http://myadmin.cheapnet.net
 Requires:	mysql
 Requires:	perl
+Requires:	perl-CGI
+Requires:	perl-DBI
+Requires:	perl-Msql-Mysql-modules
 Requires:	webserver
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
