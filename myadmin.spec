@@ -15,7 +15,7 @@ Requires:	perl-CGI
 Requires:	perl-DBI
 Requires:	perl-Msql-Mysql-modules
 Requires:	webserver
-Buildarch:	noarch
+BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %define		_cgibindir	/home/services/httpd/cgi-bin
