@@ -17,7 +17,7 @@ Requires:	webserver
 Buildarch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
-%define		_cgibindir	/home/httpd/cgi-bin
+%define		_cgibindir	/home/services/httpd/cgi-bin
 
 %description
 MyAdmin is a web cgi written in perl to fully administer the MySQL
