@@ -5,8 +5,6 @@ Version:	0.4
 Release:	1
 License:	GPL
 Group:		Applications/Databases/Interfaces
-Group(de):	Applikationen/Dateibanken/Schnittstellen
-Group(pl):	Aplikacje/Bazy danych/Interfejsy
 Source0:	ftp://myadmin.cheapnet.net/pub/myadmin/%{name}-%{version}.tar.gz
 Patch0:		%{name}-perlpath.patch
 Url:		http://myadmin.cheapnet.net
