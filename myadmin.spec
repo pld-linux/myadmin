@@ -1,5 +1,5 @@
-Summary:	Myadmin - web-based mysql administration
-Summary(pl):	Myadmin - administracja bazami mysql przez WWW
+Summary:	Myadmin - web-based MySQL administration
+Summary(pl):	Myadmin - administracja bazami MySQL przez WWW
 Name:		myadmin
 Version:	0.4
 Release:	1
