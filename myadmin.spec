@@ -28,7 +28,7 @@ that the cgi host has permissions to connect.
 
 %description -l pl
 MyAdmin jest napisanym w perl'u skryptem cgi s³u¿±cym do
-administowania bazami danych MySQL. Interfejs SQL tworzony zosta³
+administrowania bazami danych MySQL. Interfejs SQL tworzony zosta³
 przez http://www.tcx.se/. Potrafi zarz±dzaæ ka¿d± baz± danych, do
 której host ma mo¿liwo¶æ siê po³±czyæ.
 
