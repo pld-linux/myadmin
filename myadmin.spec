@@ -44,12 +44,10 @@ install -d $RPM_BUILD_ROOT%{_cgibindir}
 
 cp myadmin.cgi $RPM_BUILD_ROOT%{_cgibindir}/myadmin.cgi
 
-gzip -9nf CHANGES TODO
-
 %clean
 rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc *.gz
+%doc CHANGES TODO
 %attr(755,root,root) %{_cgibindir}/myadmin.cgi
