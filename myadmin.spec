@@ -8,7 +8,7 @@ Group:		Applications/Databases/Interfaces
 Source0:	ftp://myadmin.cheapnet.net/pub/myadmin/%{name}-%{version}.tar.gz
 # Source0-md5:	9915ce0cf36c9e33bf4bf8a600a6d85d
 Patch0:		%{name}-perlpath.patch
-Url:		http://myadmin.cheapnet.net/
+URL:		http://myadmin.cheapnet.net/
 Requires:	mysql
 Requires:	perl
 Requires:	perl-CGI
@@ -22,15 +22,15 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
 MyAdmin is a web cgi written in perl to fully administer the MySQL
-database created by www.tcx.se SQL interface, imports and export via
-the web. It can administrate any database on any server that the cgi
-host has permissions to connect.
+database created by http://www.tcx.se/ SQL interface, imports and
+export via the web. It can administrate any database on any server
+that the cgi host has permissions to connect.
 
 %description -l pl
 MyAdmin jest napisanym w perl'u skryptem cgi s³u¿±cym do
 administowania bazami danych MySQL. Interfejs SQL tworzony zosta³
-przez www.tcx.se. Potrafi zarz±dzaæ ka¿d± baz± danych, do której host
-ma mo¿liwo¶æ siê po³±czyæ.
+przez http://www.tcx.se/. Potrafi zarz±dzaæ ka¿d± baz± danych, do
+której host ma mo¿liwo¶æ siê po³±czyæ.
 
 %prep
 %setup -q
