@@ -8,6 +8,7 @@ Group:		Applications/Databases/Interfaces
 Group(de):	Applikationen/Dateibanken/Schnittstellen
 Group(pl):	Aplikacje/Bazy danych/Interfejsy
 Source0:	ftp://myadmin.cheapnet.net/pub/myadmin/%{name}-%{version}.tar.gz
+Patch0:		%{name}-perlpath.patch
 Url:		http://myadmin.cheapnet.net
 Requires:	mysql
 Requires:	perl
@@ -31,6 +32,7 @@ po³±czyæ.
 
 %prep
 %setup -q 
+%patch0 -p1
 
 %build
 
