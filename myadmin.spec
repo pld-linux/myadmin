@@ -6,6 +6,7 @@ Release:	1
 License:	GPL
 Group:		Applications/Databases/Interfaces
 Source0:	ftp://myadmin.cheapnet.net/pub/myadmin/%{name}-%{version}.tar.gz
+# Source0-md5:	9915ce0cf36c9e33bf4bf8a600a6d85d
 Patch0:		%{name}-perlpath.patch
 Url:		http://myadmin.cheapnet.net/
 Requires:	mysql
