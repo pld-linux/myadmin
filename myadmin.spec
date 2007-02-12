@@ -1,5 +1,5 @@
 Summary:	Myadmin - web-based MySQL administration
-Summary(pl):	Myadmin - administracja bazami MySQL przez WWW
+Summary(pl.UTF-8):   Myadmin - administracja bazami MySQL przez WWW
 Name:		myadmin
 Version:	0.4
 Release:	1
@@ -26,11 +26,11 @@ database created by http://www.tcx.se/ SQL interface, imports and
 export via the web. It can administrate any database on any server
 that the cgi host has permissions to connect.
 
-%description -l pl
-MyAdmin jest napisanym w perl'u skryptem cgi s³u¿±cym do
-administrowania bazami danych MySQL. Interfejs SQL tworzony zosta³
-przez http://www.tcx.se/. Potrafi zarz±dzaæ ka¿d± baz± danych, do
-której host ma mo¿liwo¶æ siê po³±czyæ.
+%description -l pl.UTF-8
+MyAdmin jest napisanym w perl'u skryptem cgi sÅ‚uÅ¼Ä…cym do
+administrowania bazami danych MySQL. Interfejs SQL tworzony zostaÅ‚
+przez http://www.tcx.se/. Potrafi zarzÄ…dzaÄ‡ kaÅ¼dÄ… bazÄ… danych, do
+ktÃ³rej host ma moÅ¼liwoÅ›Ä‡ siÄ™ poÅ‚Ä…czyÄ‡.
 
 %prep
 %setup -q
